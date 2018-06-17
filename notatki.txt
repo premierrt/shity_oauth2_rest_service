@@ -1,0 +1,23 @@
+
+--jak to powinno byc zrobione:
+https://sdtimes.com/apis/securing-microservices-the-api-gateway-authentication-and-authorization/
+http://www.swisspush.org/security/2016/10/17/oauth2-in-depth-introduction-for-enterprises
+https://www.hascode.com/2016/03/setting-up-an-oauth2-authorization-server-and-resource-provider-with-spring-boot/
+
+-w przykladach resourceServer i authServer jest na poziomie każdej klasy. jak zrobić zeby delegowac z jednego mikroserwisu do osobnego authServera
+w 
+
+- dodanie ochrony zasobu:
+1. w osobnej klasie niedotykajac klasy rest service
+w https://jugbd.org/2017/09/19/implementing-oauth2-spring-boot-spring-security/
+2. vs dodanie @PreAuthorize("#oauth2.hasScope('read')")
+https://piotrminkowski.wordpress.com/2017/12/01/part-2-microservices-security-with-oauth2/
+
+
+
+https://jmnarloch.wordpress.com/2015/10/21/spring-cloud-eureka-zuul-and-oauth2-scaling-out-authorization-server/
+
+https://gigsterous.github.io/engineering/2017/03/01/spring-boot-4.html
+
+
+https://stackoverflow.com/questions/43151610/minimum-spring-boot-configuration-for-oauth2-server-and-client
