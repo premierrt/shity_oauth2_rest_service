@@ -7,8 +7,6 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.A
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;
 
 @SpringBootApplication
-@EnableResourceServer
-
 public class Oauth2SpringBootApplication extends AuthorizationServerConfigurerAdapter{
 
 	public static void main(String[] args) {

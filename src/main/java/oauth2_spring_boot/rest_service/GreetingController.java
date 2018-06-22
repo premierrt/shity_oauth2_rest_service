@@ -14,9 +14,17 @@ import org.springframework.web.bind.annotation.RestController;
 public class GreetingController {
 	
 	
+/**
+ * @EnableGlobalMethodSecurity(prePostEnabled = true)
+https://stackoverflow.com/questions/29797721/oauth2-security-expressions-on-method-level
+	
+ */
+	
 @Autowired	
 private GreetingService greetingService;	
-@PreAuthorize("#oauth2.hasScope('level_1')")
+
+//@PreAuthorize("#oauth2.hasScope('level_1')")
+//@PreAuthorize("#oauth2.hasRole('ROLE_ADMIN')")
 @RequestMapping(value="/greeting", method=RequestMethod.GET)
 public ResponseEntity<String> greet (){
 	return new ResponseEntity<String>(greetingService.greet(), HttpStatus.OK );
