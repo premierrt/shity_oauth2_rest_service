@@ -2,6 +2,8 @@
 import projektu do sts:
 -import existing maven projekt from scm
 
+https://stackoverflow.com/questions/44657423/security-on-spring-resources-only-works-with-preauthorize
+
 22-06
 --resource 
 http://www.baeldung.com/spring-security-oauth-jwt

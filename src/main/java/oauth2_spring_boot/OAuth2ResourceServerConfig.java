@@ -17,6 +17,7 @@ import org.springframework.security.oauth2.provider.token.store.JwtTokenStore;
 public class OAuth2ResourceServerConfig extends ResourceServerConfigurerAdapter {
    /**
     * 	http://www.baeldung.com/spring-security-oauth-jwt
+    * https://stackoverflow.com/questions/44657423/security-on-spring-resources-only-works-with-preauthorize
 
     */
 	
