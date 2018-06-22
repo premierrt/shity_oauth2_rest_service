@@ -1,3 +1,41 @@
+----------
+import projektu do sts:
+-import existing maven projekt from scm
+
+22-06
+--resource 
+http://www.baeldung.com/spring-security-oauth-jwt
+
+
+to_do 21.06
+http://www.baeldung.com/spring-security-oauth-jwt
+https://github.com/Baeldung/spring-security-oauth
+https://www.devglan.com/spring-security/spring-boot-oauth2-jwt-example
+
+
+-----------
+https://stackoverflow.com/questions/35088918/spring-oauth2-hasrole-access-denied - dziala tylko z jwt
+https://github.com/mavogel/uaa-behind-zuul-sample/blob/master/dummy-service/src/main/java/com/kakawait/DummyServiceApplication.java
+http://stytex.de/blog/2016/02/01/spring-cloud-security-with-oauth2/
+
+21-06
+to_do:
+--w tym 
+http://callistaenterprise.se/blogg/teknik/2015/04/27/building-microservices-part-3-secure-APIs-with-OAuth/
+authserver jest obok zuula- sprawdzic wersje jak bedzie za zuulem
+https://spring.io/blog/2015/02/03/sso-with-oauth2-angular-js-and-spring-security-part-v
+--konfiguracja ouathServera:
+https://stackoverflow.com/questions/46691032/understanding-spring-security-oauth2-enableauthorizationserver
+--sprawdzic ktora metoder rozszerzyc z AuthorizationServerConfigurerAdapter  zeby /user zwracal tez scope.
+zaczynam od ClientDetailsServiceAdapter
+--autoApprove(true) ; sso outh  http://www.baeldung.com/sso-spring-security-oauth2 
+
+!!!
+zrobic na jwt
+http://stytex.de/blog/2016/02/01/spring-cloud-security-with-oauth2/
+
+http://www.swisspush.org/security/2016/10/17/oauth2-in-depth-introduction-for-enterprises
+
 
 --jak to powinno byc zrobione:
 https://sdtimes.com/apis/securing-microservices-the-api-gateway-authentication-and-authorization/
